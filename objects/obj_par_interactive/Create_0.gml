@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 18C7F5FC
+/// @DnDInput : 2
 /// @DnDArgument : "expr" ""Parent""
+/// @DnDArgument : "expr_1" ""What is this? I don't recognize it.""
 /// @DnDArgument : "var" "myName"
+/// @DnDArgument : "var_1" "myDescription"
 myName = "Parent";
+myDescription = "What is this? I don't recognize it.";
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

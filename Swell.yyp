@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "7a6c9e04-cf64-4da4-8990-6c66a86744ff",
+            "Value": {
+                "id": "4cc7cc17-6003-4c31-b787-ed36ac20f000",
+                "resourcePath": "objects\\obj_playerThoughts\\obj_playerThoughts.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7bb1a6d2-7d01-4748-9eb1-f931a4a25b44",
             "Value": {
                 "id": "ba9063b3-613b-49ea-9f2c-53e7a7b28875",

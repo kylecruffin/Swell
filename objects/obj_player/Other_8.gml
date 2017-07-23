@@ -18,3 +18,9 @@ if(!(obj_destination.player_facing == noone))
 	facing = obj_destination.player_facing;
 	obj_destination.player_facing = noone;
 }
+
+/// @DnDAction : YoYo Games.Instances.Call_User_Event
+/// @DnDVersion : 1
+/// @DnDHash : 5C1ED120
+/// @DnDApplyTo : 7a6c9e04-cf64-4da4-8990-6c66a86744ff
+with(obj_playerThoughts) event_user(0);
