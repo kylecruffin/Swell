@@ -1,19 +1,15 @@
-/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 2859C9F4
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_par_redirect"
+/// @DnDHash : 6AF3D06A
+/// @DnDArgument : "expr" "place_meeting(x,y,obj_par_redirect) || place_meeting(x,y,obj_par_interactive)"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "b65213aa-85d5-43c1-8dd7-fcd5082ccbe7"
-var l2859C9F4_0 = instance_place(x + 0, y + 0, obj_par_redirect);
-if (!(l2859C9F4_0 > 0))
+if(!(place_meeting(x,y,obj_par_redirect) || place_meeting(x,y,obj_par_interactive)))
 {
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 1BD03019
 	/// @DnDApplyTo : d0f5106e-0ee7-419c-8f7c-ea6757f51f21
-	/// @DnDParent : 2859C9F4
+	/// @DnDParent : 6AF3D06A
 	/// @DnDArgument : "expr" "scr_Define_Path()"
 	with(obj_player) var l1BD03019_0 = scr_Define_Path();
 	if(l1BD03019_0)

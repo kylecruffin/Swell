@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7B2C9B00
-/// @DnDArgument : "code" "enum dir_facing $(13_10){$(13_10)	up = 0,$(13_10)	right = 10,$(13_10)	down = 20,$(13_10)	left = 30$(13_10)}"
-enum dir_facing 
+/// @DnDArgument : "code" "enum Facing $(13_10){$(13_10)	up = 0,$(13_10)	right = 10,$(13_10)	down = 20,$(13_10)	left = 30$(13_10)}"
+enum Facing 
 {
 	up = 0,
 	right = 10,
@@ -31,11 +31,11 @@ and change the state formula to account for all actions
 /// @DnDVersion : 1
 /// @DnDHash : 1D8A7595
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "dir_facing.down"
+/// @DnDArgument : "expr" "Facing.down"
 /// @DnDArgument : "expr_1" "facing + isWalking"
 /// @DnDArgument : "var" "facing"
 /// @DnDArgument : "var_1" "state"
-facing = dir_facing.down;
+facing = Facing.down;
 state = facing + isWalking;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
