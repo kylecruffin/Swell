@@ -9,6 +9,13 @@
 x = mouse_x;
 y = mouse_y;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 68C0869E
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "clicked"
+clicked = true;
+
 /// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1
 /// @DnDHash : 34878BF4
