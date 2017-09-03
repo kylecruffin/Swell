@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "05d2c07b-8275-4b03-b2fe-d35ea983680b",
+            "Value": {
+                "id": "c85bced9-5d0c-4fac-9747-3b1053a74ac3",
+                "resourcePath": "objects\\obj_par_invItem\\obj_par_invItem.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b83027f-5e0b-4b0f-9296-b330fd158fe1",
             "Value": {
                 "id": "b24302ae-62c7-49d1-9968-b5f1d15c396f",
@@ -292,6 +300,14 @@
                 "id": "903e203e-8632-42cc-9efa-bb8cca118d22",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "abd5c591-df9d-4820-b2c1-8744e88a4c9e",
+            "Value": {
+                "id": "0c0d65e4-7454-4e75-b9d8-0fdf48b03277",
+                "resourcePath": "objects\\obj_testInt\\obj_testInt.yy",
+                "resourceType": "GMObject"
             }
         },
         {

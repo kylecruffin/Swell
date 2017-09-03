@@ -1,13 +1,18 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 18C7F5FC
-/// @DnDInput : 2
-/// @DnDArgument : "expr" ""Parent""
-/// @DnDArgument : "expr_1" ""What is this? I don't recognize it.""
+/// @DnDArgument : "expr" ""unknown object""
 /// @DnDArgument : "var" "myName"
-/// @DnDArgument : "var_1" "myDescription"
-myName = "Parent";
-myDescription = "What is this? I don't recognize it.";
+myName = "unknown object";
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 6C7B024B
+/// @DnDArgument : "code" "myDescription = ds_queue_create();$(13_10)$(13_10)ds_queue_enqueue(myDescription, "What is this?");$(13_10)ds_queue_enqueue(myDescription, "I don't recognize it.");"
+myDescription = ds_queue_create();
+
+ds_queue_enqueue(myDescription, "What is this?");
+ds_queue_enqueue(myDescription, "I don't recognize it.");
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

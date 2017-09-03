@@ -1,6 +1,4 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1
-/// @DnDHash : 2DC6E844
-/// @DnDArgument : "expr" """"
-/// @DnDArgument : "var" "currentThought"
-currentThought = "";
+/// @DnDHash : 5C1138E3
+event_user(0);

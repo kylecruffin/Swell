@@ -9,7 +9,7 @@ draw_set_font(font_sentence);
 /// @DnDVersion : 1
 /// @DnDHash : 11C5A35C
 /// @DnDArgument : "x" "obj_player.x"
-/// @DnDArgument : "y" "obj_player.y-60"
+/// @DnDArgument : "y" "obj_player.y - 60"
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "currentThought"
-draw_text(obj_player.x, obj_player.y-60,  + string(currentThought));
+draw_text(obj_player.x, obj_player.y - 60,  + string(currentThought));

@@ -42,5 +42,5 @@ else
 /// @DnDArgument : "x" "view_xview + view_wview/2"
 /// @DnDArgument : "y" "view_yview + view_hview - view_hview/8"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "displayVerb + displaySubject"
-draw_text(view_xview + view_wview/2, view_yview + view_hview - view_hview/8,  + string(displayVerb + displaySubject));
+/// @DnDArgument : "var" "displayVerb + displayObject + displaySubject"
+draw_text(view_xview + view_wview/2, view_yview + view_hview - view_hview/8,  + string(displayVerb + displayObject + displaySubject));
