@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1244ee3d-5a3a-41bb-bdde-4e6a50fed720",
+            "Value": {
+                "id": "bd727d53-7567-4e37-a262-bcd554e0cf1e",
+                "resourcePath": "sprites\\spr_playerFrontIdle3\\spr_playerFrontIdle3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13704fe6-c647-4020-941f-5062f29cbe30",
             "Value": {
                 "id": "bb71f469-bef0-4b9b-9c34-f1a0fbc17afe",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "6b69c09f-1bb2-4914-8551-7467bcd4f693",
                 "resourcePath": "sprites\\spr_playerRightWalk\\spr_playerRightWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "35af702f-ba42-4d6d-b386-99affc7325f2",
+            "Value": {
+                "id": "657efd3a-fa48-43d5-90ea-e3c52ca4f6b6",
+                "resourcePath": "sprites\\spr_playerFrontWalk\\spr_playerFrontWalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -164,14 +180,6 @@
                 "id": "69dc8797-6413-4d71-af0f-647db8eeb684",
                 "resourcePath": "views\\455a01b9-6f6a-432a-b045-cf54da6455b8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "471fedde-4a69-4541-a1d5-ea573c55d631",
-            "Value": {
-                "id": "ba5be598-fe02-45ce-98fa-f41c70ca158f",
-                "resourcePath": "sprites\\spr_playerFrontWalk\\spr_playerFrontWalk.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -467,6 +475,14 @@
             "Value": {
                 "id": "728f7dae-1480-4dcc-8cdd-d56a45b95811",
                 "resourcePath": "sprites\\spr_destination\\spr_destination.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f3fb2d13-b0ee-4700-863a-a2af2969bbf9",
+            "Value": {
+                "id": "d71edae7-34e5-4fdc-a8b3-321afd42db5b",
+                "resourcePath": "sprites\\spr_playerFrontIdle2\\spr_playerFrontIdle2.yy",
                 "resourceType": "GMSprite"
             }
         },

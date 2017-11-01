@@ -39,8 +39,8 @@ else
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 33B6FD2A
-/// @DnDArgument : "x" "view_xview + view_wview/2"
-/// @DnDArgument : "y" "view_yview + view_hview - view_hview/8"
+/// @DnDArgument : "x" "view_wport/2"
+/// @DnDArgument : "y" "view_hport - view_hport/8"
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "displayVerb + displayObject + displaySubject"
-draw_text(view_xview + view_wview/2, view_yview + view_hview - view_hview/8,  + string(displayVerb + displayObject + displaySubject));
+draw_text(view_wport/2, view_hport - view_hport/8,  + string(displayVerb + displayObject + displaySubject));
